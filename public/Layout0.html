@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <!-------------CSS Styleing here---------------->
+        <style>
+                    header,footer{
+                        background-color: tomato;
+                        color: white;
+                        text-align: center;
+                        padding: 5px;
+                        font-weight: bold;
+                        font-size: 25px;
+                    }
+                    section{
+                        height: 510px;
+                        display: grid;
+                        grid-template-columns: 2fr 8fr 2fr;
+                        margin-top: 20px;
+                    }
+                    nav div{
+                        border: 2px tomato solid ;
+                        width: 100px;
+                        margin-bottom: 5px;
+                        background-color: tomato;
+                        color: white;
+                        border-radius: 5px;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    aside{
+                        border: 1px solid black;
+                        height: 50px;
+                    }
+                    figure{
+                        border: 2px solid black;
+                        width: 150px;
+                    }
+                    article{
+                        background-color: brown;
+                        color: white;
+                        border: 2px solid brown;
+                    }
+                    dialog{
+                        border: 1ps solid;
+                        margin-left: 1200px;
+                        margin-top: 500px;
+                        
+                    }
+        </style>
+</head>
+<body>
+            <!----------Header part------->
+            <header>
+                    <div>Amazon Website</div>
+            </header>
+            <!--------center part----------->
+            <section>
+                        <nav>
+                                            <div>Home</div>
+                                            <div>Electronices</div>
+                                            <div>Footwear</div>
+                                            <div>Apperance</div>
+                        </nav>
+                        <dialog open>Chat here..</dialog>
+                        <main>
+                                <div>    Amazone Shopping area</div>
+                                <figure>
+                                    Image..
+                                <figcaption>This is samsung TV</figcaption>
+                                </figure>
+                        <article>
+                                    <div> upto 70% off on electronices</div>
+                        </article>
+                        </main>
+                        <aside>
+                            Add display here..
+                        </aside>
+            </section>
+            <!----------Footer part----->
+            <footer>
+                <div>&copy;All copyright are designed by amazon 2021.</div>
+            </footer>
+</body>
+</html>

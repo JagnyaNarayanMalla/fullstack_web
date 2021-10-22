@@ -1,0 +1,16 @@
+{
+  "name": "online_shopping",
+  "version": "1.0.1",
+  "description": "this is online web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "online",
+    "ebay",
+    "amazone"
+  ],
+  "author": "jagnya narayan malla",
+  "license": "ISC"
+}
